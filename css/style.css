@@ -1,6 +1,6 @@
 body{
+    box-sizing: content-box;
     width: 1200px;
-
 } 
     
     
@@ -15,6 +15,7 @@ header{
     background-repeat: repeat;
     background-color: rgba(78, 160, 255, 1);
     height: 8rem;
+   
 }
 
 #logo{
@@ -23,16 +24,25 @@ header{
     padding-top: 70px;  
 }
 
-#data{
-    font-size: 12px;
-}
 
-/* */
+/*title*/
+
+.titolo{
+    font-size: 45px;
+    font-weight: bolder;
+    margin-bottom: 1px;
+    margin-top: auto;
+}
 
 .sottotitolo{
     color: #929292;
     font-size: 16px;
     font-weight: bold;
+    margin-top: 1px;
+}
+
+#data{
+    font-size: 12px;
 }
 
 #author{
@@ -41,7 +51,10 @@ header{
 
 #desphoto{
     font-size: 13px;
+    margin-top: auto;
 }
+
+/*paragraph*/
 
 .paragrafo{
     padding-top: 5px;
@@ -58,32 +71,35 @@ ul{
     background-color: #ffff00;
 }
 
+/*tab setting*/
+
 #intab{
     background-color: #20a9e5 ;
     color: white;
-    
-}
-
-th{
     height: 5px;
     width:1200px;
     text-align: left;
-}
-
-td{
-    height: 65px;
-
-}
-
-.line1{
-    background-color: #b1e5f2;
-    
 }
 
 table{
     border-spacing: 0rem;
 }
 
+td{
+    height: 65px;
+    width: 280px;
+}
+
+.colonna{
+    width:700px;
+    
+}
+
+.line1{
+    background-color: #b1e5f2;
+    height: 65px;
+    
+}
 
 /*footer*/
 
