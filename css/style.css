@@ -1,9 +1,110 @@
-/*header*/
-header{
+body{
+    width: 1200px;
+
+} 
     
+    
+    
+ 
+
+/*header*/
+
+header{
+    background-image: url("C:/Users/ale/classe b/html-css-booleaner/img/pattern.png");
+    background-size: 30rem;
+    background-repeat: repeat;
+    background-color: rgba(78, 160, 255, 1);
+    height: 8rem;
 }
 
 #logo{
     text-align: left;
     width: 10rem;
+    padding-top: 70px;  
+}
+
+#data{
+    font-size: 12px;
+}
+
+/* */
+
+.sottotitolo{
+    color: #929292;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#author{
+    color: #3cb4e8;
+}   
+
+#desphoto{
+    font-size: 13px;
+}
+
+.paragrafo{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+
+ul{
+    text-align: left;
+    padding-inline-start: 18px;
+}
+
+.evidenziato{
+    background-color: #ffff00;
+}
+
+#intab{
+    background-color: #20a9e5 ;
+    color: white;
+    
+}
+
+th{
+    height: 5px;
+    width:1200px;
+    text-align: left;
+}
+
+td{
+    height: 65px;
+
+}
+
+.line1{
+    background-color: #b1e5f2;
+    
+}
+
+table{
+    border-spacing: 0rem;
+}
+
+
+/*footer*/
+
+#foto1{
+background-image: url("C:/Users/ale/classe b/html-css-booleaner/img/monitor.jpg");
+background-size:cover;
+width: 312px;
+height: 208px;
+color: white;
+font-weight: bolder;
+padding: 13px;
+
+}
+
+#foto2{
+    background-image: url("C:/Users/ale/classe b/html-css-booleaner/img/graph.jpg");
+    background-size:cover;
+    width: 311px;
+    height: 207px;
+    color: white;
+    font-weight: bolder;
+    padding: 13px;
+
 }
